@@ -19,9 +19,14 @@ class SearchViewBody extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Image.asset(
-                AssetsData.kLogoPath,
-                height: 3.h,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image.asset(
+                    AssetsData.kLogoPath,
+                    height: 3.h,
+                  ),
+                ],
               ),
               const SizedBox(
                 height: 40,
